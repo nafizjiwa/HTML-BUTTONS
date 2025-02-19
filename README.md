@@ -1,6 +1,6 @@
 # HTML-BUTTONS
 
-Creating buttons in HTML can be done in various ways depending on your needs. Here are some of the most common methods:
+Creating buttons in HTML can be done in various ways depending on your needs. Here are some of the most common methods:<br/>
 
 #### 1. Basic HTML Button:
 
@@ -15,20 +15,20 @@ Creating buttons in HTML can be done in various ways depending on your needs. He
 #### 3. Link Styled as a Button:
 
     <a href="https://example.com" class="button">Visit Example</a>
-css
-/* CSS */
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  text-align: center;
-  color: white;
-  background-color: #007BFF;
-  border-radius: 5px;
-  text-decoration: none;
-}
-.button:hover {
-  background-color: #0056b3;
-}
+css<br/>
+/* CSS */<br/>
+.button {<br/>
+  display: inline-block;<br/>
+  padding: 10px 20px;<br/>
+  text-align: center;<br/>
+  color: white;<br/>
+  background-color: #007BFF;<br/>
+  border-radius: 5px;<br/>
+  text-decoration: none;<br/>
+}<br/>
+.button:hover {<br/>
+  background-color: #0056b3;<br/>
+}<br/>
 
 #### 4. Input Element Styled as a Button:
 
@@ -45,30 +45,30 @@ css
 #### 6. Customized Button with CSS:
 
     <button class="custom-button">Click Me</button>
-css
-/* CSS */
-.custom-button {
-  padding: 10px 20px;
-  background-color: #28a745;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-}
+css<br/>
+/* CSS */<br/>
+.custom-button {<br/>
+  padding: 10px 20px;<br/>
+  background-color: #28a745;<br/>
+  color: white;<br/>
+  border: none;<br/>
+  border-radius: 5px;<br/>
+  cursor: pointer;<br/>
+  font-size: 16px;<br/>
+}<br/>
 
-.custom-button:hover {
-  background-color: #218838;
-}
+.custom-button:hover {<br/>
+  background-color: #218838;<br/>
+}<br/>
 
 #### 7. Button with JavaScript:
 
     <button onclick="myFunction()">Click Me</button>
 
-<script>
-  function myFunction() {
-    alert("Button was clicked!");
-  }
-</script>
+<script><br/>
+  function myFunction() {<br/>
+    alert("Button was clicked!");<br/>
+  }<br/>
+</script><br/>
 
-Each method serves different purposes depending on the functionality and styling the button.
+Each method serves different purposes depending on the functionality and styling the button.<br/>
